@@ -1,0 +1,14 @@
+/** Shoes 
+Nike, 7, Black, 25, 4
+Adidas, 8, White, 35, 3
+Converse, 6, Gray, 30, 5
+New Balance, 7, Blue, 40, 2
+Reebok, 9, Red, 45, 3 **/
+CREATE TABLE "Shoes" (id integer primary key, name TEXT, size INTEGER, price 
+INTEGER, inventory INTEGER);
+insert into "Shoes" values (1, "Nike", 7, 25, 4);
+insert into "Shoes" values (2, "Adidas", 8, 35, 3);
+insert into "Shoes" values (3, "Converse", 6, 30, 5);
+insert into "Shoes" values (4, "New Balance", 7, 40, 2);
+insert into "Shoes" values (5, "Reebok", 9, 45, 3); Here I created a store database
+SELECT name, (price) from Shoes order by price ; Here I am ordering the shoes by price with their names.
